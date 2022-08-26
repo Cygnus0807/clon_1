@@ -1,26 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/halka_sa_orange"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="vertical">
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:id="@+id/image_view"-->
+<!--            app:cardCornerRadius="60dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            >-->
+<!--            <ImageView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"/>-->
 
+<!--        </androidx.cardview.widget.CardView>-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="AZADI KA AMRIT AWSAR"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="40sp">
-
-    </TextView>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:text="Pranav"
         android:textSize="30dp"
-        android:text="15 aug 2022"
-        android:textColor="@color/green">
-    </TextView>
+        android:textColor="@color/green"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Where are you, I am at home"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
 
 
-</LinearLayout>
+
+</RelativeLayout>
